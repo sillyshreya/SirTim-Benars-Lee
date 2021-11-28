@@ -1,0 +1,86 @@
+#SirTim {
+  border-radius: 0.5px;
+    border-width: 3px;
+    border-color: blueviolet;
+    border-style: double;
+    margin-top:60px;
+}
+body {
+    text-align: center;
+}
+#welcome {
+    height: 800px;
+    background: linear-gradient(#e01fc7 0%,#e01f63 100%);
+    font-size: 35px;
+    margin-top: 20px;
+    z-index: 9;
+
+} 
+.line {
+    height: 6px;
+    background-color:lightblue;
+    width: 100px;
+    margin:auto;
+    
+}
+#bio {
+    height: 100%;
+    background: linear-gradient(#e01fc7 0%,#e01f63 100%);
+    font-size: 30px;
+    
+} 
+.menu {
+    position: fixed;
+    background-color: linear-gradient(#e01fc7 0%,#e01f63 100%) ;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10; 
+    list-style: none;
+vertical-align: middle;
+    
+}
+.link {
+    float:left;
+    padding-left:10px; 
+        padding-right: 10px;
+        padding-top:10px;
+        padding-bottom:10px;
+    font-size:25px; 
+        font-family: cursive;
+     text-align: center;
+} 
+.link:hover {
+    background-color:#f50a0c;
+    
+}
+h3 {
+    font-family: 'Yuji Mai', serif;
+}
+h1 {
+    font-size: 50px;
+} 
+#videos {
+    background: linear-gradient(#e01fc7 0%,#e01f63 100%)
+}
+#work {
+    background: linear-gradient(#e01fc7 0%,#e01f63 100%)
+}
+#writings {
+    background: linear-gradient(#e01fc7 0%,#e01f63 100%)
+
+  
+} .article:hover {
+    background-color:lightcoral;   
+    
+}
+.article {
+    font-size: 40px;
+}
+#contact {
+    background: linear-gradient(#e01fc7 0%,#e01f63 100%)
+}
+a {
+    text-decoration: none; 
+    color:darkviolet;
+    text-shadow: 2px 2px gainsboro;
+}
